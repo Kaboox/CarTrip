@@ -1,3 +1,8 @@
+/**
+ * GasStation class is supposed to refuel our car if needed ( with Refueling class's methods)
+ * @see Refueling
+ */
+
 public class GasStation implements Runnable{
     Refueling kmToDrive;
 

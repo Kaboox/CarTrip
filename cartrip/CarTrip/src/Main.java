@@ -1,4 +1,8 @@
-import java.util.ArrayList;
+/**
+ * CarTrip app works with multithreading, first thread is the car which adds new kilometres ( Kilometre objects), second one is GasStation which refuels the car if needed.
+ * We assume that we are driving on a highway with constant speed and refuel the car every 500 kilometres.
+ */
+
 
 public class Main {
     public static void main(String[] args) {

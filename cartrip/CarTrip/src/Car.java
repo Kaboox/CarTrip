@@ -1,3 +1,9 @@
+/**
+ * Car class is responsible for driving the car (displaying and adding new kilometres to the arrayList)
+ * Works alternately with GasStation thread:
+ * @see GasStation
+ */
+
 public class Car implements Runnable{
     private int kmDriven = 0;
     Refueling kmToDrive;
